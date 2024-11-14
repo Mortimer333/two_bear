@@ -21,12 +21,24 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>): React.ReactNode {
+  const tag = `window.dataLayer = window.dataLayer || [];
+          function gtag(){
+            window.dataLayer.push(arguments)
+          }
+          gtag('js', new Date());
+
+          gtag('config', 'G-565T1819RC');`;
   return (
     <html lang="en">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin={""}/>
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&display=swap" rel="stylesheet"/>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-565T1819RC"></script>
+
+        <script dangerouslySetInnerHTML={{ __html: tag }}></script>
+
       </head>
       <body className={`antialiased`}>
         {children}
