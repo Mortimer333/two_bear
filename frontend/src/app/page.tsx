@@ -51,7 +51,7 @@ export default function Home(): React.ReactNode {
         </article>
 
       </section>
-      <footer className="w-[850px] mx-auto pb-10">
+      <footer className="max-w-[850px] mx-auto pb-10">
         <Image
           className="w-full max-w-[300px] mx-auto"
           src="/logo.png"
