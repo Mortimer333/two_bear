@@ -39,7 +39,7 @@ export default function Home(): React.ReactNode {
                 className="blue-link "
                 rel="nofollow noreferrer">
                 Koszykowa 49A
-              </a> | 4/5
+              </a> | 3.9/5
             </small>
             <h1 className="neon-text mb-5">Uki Green</h1>
             <p className="text-md short-text-2">
