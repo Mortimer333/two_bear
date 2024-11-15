@@ -63,7 +63,7 @@ export default function Home(): React.ReactNode {
         <p className="mx-4 mt-10 text-xl text-justify">
           Na naszej stronie znajdziesz szczere opinie na temat jedzenia, od klimatycznych kawiarni po tematyczne ale
           też eleganckie restauracje. Celem naszej dwójki jest  ułatwienie Ci podjęcia decyzji gdzie smacznie zjeść i
-          spędzić dobrze czas. Każda recenzja jest starannie przez nas stworzona. Zwracamy uwagę a każdy szczegół - od
+          spędzić dobrze czas. Każda recenzja jest starannie przez nas stworzona. Zwracamy uwagę na każdy szczegół - od
           smaku po estetykę i po atmosferę miejscówki. Nasze opinie pomogą Wam wybrać idealne miejsc, gdzie dobrze
           zjeść w wyjątkowym klimacie. Ważną zaletą jest, że robimy to z pasji i dla zabawy. Każdy lubi dobrze zjeść.
           Zapraszamy do świata kulinarnych podróży dwóch misiów.
