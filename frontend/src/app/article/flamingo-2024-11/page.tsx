@@ -120,7 +120,7 @@ const page: React.FC = () => {
 
           <div className="my-5 flex lg:flex-row flex-col gap-5 h-[450px]">
             <Image
-              className="h-full object-cover w-full lg:w-1/2 rounded shadow"
+              className="lg:h-full h-[225px] object-cover w-full lg:w-1/2 rounded shadow"
               src={'/flamingo-2024-11/13.jpg'}
               alt={'Honey Buffalo Chicken Wings with Blue Cheese'}
               width={800}
@@ -128,7 +128,7 @@ const page: React.FC = () => {
               priority
             />
             <Image
-              className="h-full object-cover w-full lg:w-1/2 rounded shadow"
+              className="lg:h-full h-[225px] object-cover w-full lg:w-1/2 rounded shadow"
               src={'/flamingo-2024-11/11.jpg'}
               alt={'BBQ Spare Ribs'}
               width={800}
@@ -166,9 +166,9 @@ const page: React.FC = () => {
             />
           </div>
 
-          <div className="my-5 flex lg:flex-row flex-col gap-5 h-[450px]">
+          <div className="my-5 flex lg:flex-row flex-col gap-5 h-[450px] mb-10">
             <Image
-              className="h-full object-cover w-full lg:w-1/2 rounded shadow"
+              className="lg:h-full h-[225px] object-cover w-full lg:w-1/2 rounded shadow"
               src={'/flamingo-2024-11/9.jpg'}
               alt={'Drinks'}
               width={800}
@@ -176,7 +176,7 @@ const page: React.FC = () => {
               priority
             />
             <Image
-              className="h-full object-cover w-full lg:w-1/2 rounded shadow"
+              className="lg:h-full h-[225px] object-cover w-full lg:w-1/2 rounded shadow"
               src={'/flamingo-2024-11/3.jpg'}
               alt={'BBQ Spare Ribs'}
               width={800}
