@@ -11,6 +11,22 @@ export default function Home(): React.ReactNode {
       <section className="w-full p-3 grid md:grid-cols-2 grid-cols-1 lg:grid-cols-3 gap-5 items-start mb-10">
 
         <Article
+          link="/article/waffle-bar-2025-01"
+          main="/waffle-bar-2025-01/main.jpg"
+          logo="/waffle-bar-2025-01/logo.webp"
+          maps="https://maps.app.goo.gl/db6GAfrhvULjAkQL7"
+          date="2025-01"
+          stars="3.75"
+          street="Akademicka 1"
+          title="Waffle bar"
+          maxWidth={100}
+          description="
+            Waffle bar to mała knajpka znajdująca się przy Placu Narutowicza. Kameralne miejsce idealne dla miłośników
+            gofrów i bajgli. Kameralne miejsce dla chętnych zjedzenia bez tłumów, w spokoju. Napoje – cappuccino ikakao
+            z piankami, pyszne.
+          "
+        />
+        <Article
           link="/article/flamingo-2024-11/"
           main="/flamingo-2024-11/main.jpg"
           logo="/flamingo-2024-11/logo.png"
@@ -21,9 +37,9 @@ export default function Home(): React.ReactNode {
           title="Pink Flamingo"
           maxWidth={100}
           description="
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+            Pink Flamingo, to amerykańska restauracja, nieco ukryta, z tyłu Parku Szczęśliwickiego. Wnętrze
+            bardzo przypomina rodem ,,Grease’’ z Johnem Travoltą. Neony, czerwone krzesła, wygodne fotele, muzyka z
+            lat 50. Osobiście uwielbiam takie klimaty.
           "
         />
         <Article

@@ -39,8 +39,8 @@ const page: React.FC = () => {
   const jsonLd ={
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Recenzje Uki Green Vegan Ramen",
-    "description": "Recenzja restauracji Uki Green Vegan Ramen 2024/11",
+    "headline": "Recenzja Pink Flamingo",
+    "description": "Recenzja restauracji Pink Flamingo 2024/11",
     "image": process.env.URL! + "/flamingo-2024-11/main.jpg",
     "author": {
       "@type": "Person",
@@ -55,7 +55,7 @@ const page: React.FC = () => {
       }
     },
     "datePublished": "2024-11-30",
-    "dateModified": "2024-11-30"
+    "dateModified": "2025-07-22"
   }
 
   return <>
@@ -199,15 +199,15 @@ const page: React.FC = () => {
               localReview={coffee.local}
               localDesc={'słabo nas usadzili, wydaje mi sie ze były lepsze miejsca i zaczynali usadzać od najgorszych i obsługa była do bani'}
               locationReview={coffee.localisation}
-              locationDesc={'polecam droge przez park'}
+              locationDesc={'polecam drogę przez park'}
             />
             <ReviewDetails mug={<FontAwesomeIcon icon={faBeerMugEmpty} className="inline h-[25px] mr-2"/>}
               foodReview={beer.food}
-              foodDesc={'papu, jak na popisowe danie (60zl) to jadlem o wiele leosze - twarde, zalane sosem'}
+              foodDesc={'papu, jak na popisowe danie (60zl) to jadłem o wiele lepsze - twarde, zalane sosem'}
               localReview={beer.local}
               localDesc={'oddaje takie amerykańskie uczucie familijnej restauracji,nachosy na poczęstunek i szybko podali jedzenie'}
               locationReview={beer.localisation}
-              locationDesc={'nie żadnego autobusu blisko, droga albo przez park albo nowe budownistwo z dziurami'}
+              locationDesc={'nie żadnego autobusu blisko, droga albo przez park albo nowe budownictwo z dziurami'}
             />
           </div>
         </div>

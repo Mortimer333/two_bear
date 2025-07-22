@@ -39,7 +39,7 @@ const page: React.FC = () => {
   const jsonLd ={
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Recenzje Uki Green Vegan Ramen",
+    "headline": "Recenzja Uki Green Vegan Ramen",
     "description": "Recenzja restauracji Uki Green Vegan Ramen 2024/11",
     "image": process.env.URL! + "/uki-green-2024-11/main.jpg",
     "author": {
@@ -55,7 +55,7 @@ const page: React.FC = () => {
       }
     },
     "datePublished": "2024-11-14",
-    "dateModified": "2024-11-14"
+    "dateModified": "2025-07-22"
   }
 
   return <>
