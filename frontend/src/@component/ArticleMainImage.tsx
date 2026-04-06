@@ -24,7 +24,7 @@ const ArticleMainImage: React.FC<IArticleMainImageProps> = (
       height={500}
       priority
     />
-    <h1 className="neon-text text-7xl absolute text-center">{restaurantName}</h1>
+    <h1 className="neon-text text-7xl absolute text-center px-2">{restaurantName}</h1>
   </div>
 };
 

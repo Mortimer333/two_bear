@@ -11,6 +11,21 @@ export default function Home(): React.ReactNode {
       <section className="w-full p-3 grid md:grid-cols-2 grid-cols-1 lg:grid-cols-3 gap-5 items-start mb-10">
 
         <Article
+          link="/article/moli-hotpot-2026-04"
+          main="/moli-hotpot-2026-04/main.jpg"
+          logo="/moli-hotpot-2026-04/logo.jpg"
+          maps="https://maps.app.goo.gl/8ydxkBjp9V2f5R7FA"
+          date="2026-04"
+          stars="5"
+          street="Książęca 23"
+          title="Moli Hotpot & Grill"
+          maxWidth={100}
+          description="
+           Moli Hotpot & Grill to chińska restauracja znajdująca się niedaleko Zagrywek. Wnętrze jest urządzone w
+           nowoczesnym stylu  połączonym z chińskimi motywami.
+          "
+        />
+        <Article
           link="/article/waffle-bar-2025-01"
           main="/waffle-bar-2025-01/main.jpg"
           logo="/waffle-bar-2025-01/logo.webp"
